@@ -83,6 +83,7 @@ Which review areas matter most? (comma-separated, e.g. 1, 3)
 2. Performance - N+1 queries, memory leaks, complexity (performance-oracle)
 3. Architecture - Design patterns, SOLID, separation of concerns (architecture-strategist)
 4. Code simplicity - Over-engineering, YAGNI violations (code-simplicity-reviewer)
+5. Redundancy - Out-of-scope files, local-only helpers, and over-scoped diffs (redundancy-reviewer)
 ```
 
 **c. Depth:**
@@ -108,6 +109,7 @@ How thorough should reviews be?
 - Performance → `performance-oracle`
 - Architecture → `architecture-strategist`
 - Code simplicity → `code-simplicity-reviewer`
+- Redundancy → `redundancy-reviewer`
 
 **Depth:**
 - Thorough: stack + selected focus areas

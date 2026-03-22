@@ -31,6 +31,7 @@ Agents are organized into categories for easier discovery.
 | `kieran-typescript-reviewer` | TypeScript code review with strict conventions |
 | `pattern-recognition-specialist` | Analyze code for patterns and anti-patterns |
 | `performance-oracle` | Performance analysis and optimization |
+| `redundancy-reviewer` | Identify redundant, accidental, or out-of-scope additions in a change |
 | `schema-drift-detector` | Detect unrelated schema.rb changes in PRs |
 | `security-sentinel` | Security audits and vulnerability assessments |
 
